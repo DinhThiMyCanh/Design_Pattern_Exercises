@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Computer implements Prototype<Computer>{
-	 private String os;
+	    private String os;
 	    private String office;
 	    private String antivirus;
 	    private String browser;

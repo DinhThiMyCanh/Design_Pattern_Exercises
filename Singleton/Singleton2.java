@@ -5,12 +5,6 @@ public class Singleton2 {
 	
 	private String name;
 	private Singleton2(String name) {
-		//Mô phỏng quá trình khởi tạo chậm
-		/*try {
-            Thread.sleep(1000);
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }*/
 		this.name = name;}
 	
 	public static Singleton2 getInstance(String name) {

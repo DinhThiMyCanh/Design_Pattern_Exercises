@@ -3,6 +3,7 @@ package DuckSimulator;
 public class Duck {
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;
+	
 	public Duck() {}
 	
 	public void setFlyBehavior(FlyBehavior fb){

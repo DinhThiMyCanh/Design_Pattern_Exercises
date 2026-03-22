@@ -9,9 +9,14 @@ public class Client {
 		// TODO Auto-generated method stub
 		List<Duck> ducks = new LinkedList<Duck>();
 		//Tat ca co Kieu lop cha supertype
-		Duck myDuck = new RubberDuck();
+		/*Duck myDuck = new RubberDuck();
 		ducks.add(new MallarDuck());
+		ducks.add(myDuck);*/
+		
+		Duck myDuck = DuckFactory.getDuck("RubberDuck");
 		ducks.add(myDuck);
+		
+		//Tạo ra các Duck+ Fly+Quack
 		
 		processDucks(ducks);
 		

@@ -8,6 +8,9 @@ public class Client {
 
 		Coffee coffee1 = new MilkCoffee(new DefaultCoffee());
 		System.out.println("Coffe Milk:"+coffee1.getPrice());
+		
+		Coffee coffee2 = new DefaultCoffee();
+		System.out.println("Coffe:"+coffee2.getPrice());
 	}
 
 }

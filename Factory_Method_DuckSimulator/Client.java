@@ -9,6 +9,8 @@ public class Client {
 		// TODO Auto-generated method stub
 		List<Duck> ducks = new LinkedList<Duck>();
 		
+		
+		
 		DuckFactory factory = new DefaultDuckFactory();
         Duck duck1 = factory.createDuck(DuckType.MALLARD);
         Duck duck2 = factory.createDuck(DuckType.RUBBER);

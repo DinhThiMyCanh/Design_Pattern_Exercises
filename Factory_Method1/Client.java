@@ -4,9 +4,9 @@ public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//ViÌ getBank traÒ vêÌ Bank (Product)
-		Bank bank = BankFactory.getBank(BankType.TPBank);
-		System.out.print(bank.getName());
+		//Viï¿½ getBank traï¿½ vï¿½ï¿½ Bank (Product)
+		BankFactory factory = new DefaultBankFactory();
+		System.out.print(factory.creatBank(BankType.TPBank).getName());
 		
 	}
 

@@ -7,6 +7,7 @@ public interface EmployeeComponent {
 	void doTask();
 	void join(Date joinDate);
 	void terminate (Date terminateDate);
+	
 	default void showInformation() {
 		System.out.println("--------------");
 		System.out.println("Information:"+getName());
